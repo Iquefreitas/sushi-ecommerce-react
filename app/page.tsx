@@ -6,6 +6,8 @@ import { TabsSkeleton } from "@/components/products/skeleton";
 import { ProductsTab } from "@/components/products/tab";
 import { Suspense } from "react";
 
+//Teste Git
+
 const Page = () => {
   return (
     <div className="w-full max-w-4xl mx-auto">
