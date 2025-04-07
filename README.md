@@ -1,38 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Sushi E-commerce
 
-## Getting Started
+Loja virtual de sushi construída com Next.js, Tailwind CSS e shadcn/ui. Projeto focado em performance, design moderno e boas práticas de desenvolvimento front-end.
 
-First, run the development server:
+Tecnologias Utilizadas
 
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [TypeScript](https://www.typescriptlang.org/) (se estiver usando)
+- [Vercel](https://vercel.com/) (para deploy)
+
+ Instalação
+
+1. Clone o repositório:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/Iquefreitas/sushi-ecommerce-react.git
+cd sushi-ecommerce-react
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse http://localhost:3000 no navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Estrutura do Projeto
+app/ — estrutura do Next.js App Router
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+components/ — componentes reutilizáveis da UI
 
-## Learn More
+styles/ — estilos globais e configurações do Tailwind
 
-To learn more about Next.js, take a look at the following resources:
+lib/ — utilitários e serviços
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Funcionalidades
+Layout responsivo e moderno
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Interface criada com shadcn/ui
 
-## Deploy on Vercel
+Integração com sistema de pedidos (em desenvolvimento ou fictício)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# sushi-ecommerce-react" 
-"# sushi-ecommerce-react" 
+Navegação rápida com App Router
